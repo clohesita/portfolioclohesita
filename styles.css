@@ -1,0 +1,64 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(167, 84, 244);
+    margin: 0;
+    padding: 22px;
+}
+header#heade {
+    background-color: violet;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+section#sobre {
+    color: white;
+    margin: 20px;
+    text-align: center;
+
+}
+h1{
+    color: white;
+    text-align: center;
+    background-color: rgb(83, 43, 226);
+}
+h2{
+    color: white;
+    text-align: center;
+}
+section.Galeri{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+section.Galeri img{
+width: auto;
+height: auto;
+max-width: 15%;
+max-height: 15%;
+align-items: center;
+border-radius: 50px;
+}
+section.Galeria{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+section.Galeria img{
+    width: auto;
+    height: auto;
+    max-width: 30%;
+    max-height: 30%;
+    align-items: center;
+    border-radius: 15px;
+    }
+    p{
+        color: white;
+        text-align: center; 
+    }
+    footer{
+        color: white;
+    text-align: center;
+    margin-top: 20px;
+    }
